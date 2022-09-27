@@ -1,4 +1,4 @@
-rom typing import List
+from typing import List
 def selectionSort(array, size) -> List[int]:
   for step in range(size):
     min_idx = step
